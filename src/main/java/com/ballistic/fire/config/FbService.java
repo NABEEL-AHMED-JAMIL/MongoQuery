@@ -4,7 +4,6 @@ import com.google.auth.oauth2.GoogleCredentials;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
 import com.google.firebase.database.*;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -53,7 +52,7 @@ public class FbService {
         return SINGLE_INSTANCE;
     }
 
-    /**
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * *
      * Note :- Method not usefull for this application demo
      * while contain in case of next time use
      * * */

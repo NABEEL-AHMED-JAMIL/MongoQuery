@@ -6,7 +6,6 @@ import com.google.api.core.ApiFuture;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
-import java.util.*;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
@@ -39,8 +38,6 @@ public class FBDbStore {
             System.out.println("Your Instance Not Create Yet....");
         }
     }
-
-
 
     public static void main(String args[]) {
         FBDbStore fbDbStore = new FBDbStore();

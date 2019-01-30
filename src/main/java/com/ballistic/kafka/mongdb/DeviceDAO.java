@@ -104,9 +104,7 @@ public class DeviceDAO implements IDeviceDAO {
 
                         if (photo.getPhotoName() != null) { updateOps.set(PHOTO+"."+PHOTONAME, photo.getPhotoName()); }
 
-                        if (photo.getPhotoUrl() != null && photo.getPhotoName() != null) {
-                            updateOps.set(PHOTO+"."+PHOTOURL, photo.getPhotoUrl());
-                        }
+                        if (photo.getPhotoUrl() != null && photo.getPhotoName() != null) { updateOps.set(PHOTO+"."+PHOTOURL, photo.getPhotoUrl()); }
 
                         if (photo.getSize() != null) { updateOps.set(PHOTO+"."+SIZE, photo.getSize()); }
 

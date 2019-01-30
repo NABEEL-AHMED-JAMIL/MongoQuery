@@ -2,29 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd5b228e-0711-444d-98be-33331e2eb341" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/GrepConsole.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/StockReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/StockReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/ApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/ApplicationStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/broker/Consumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/broker/IConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/broker/IProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/broker/MsgKafka.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/broker/Producer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/config/FbService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/config/FbService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBAuthentication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBAuthentication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBDbStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBDbStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBFileStore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FCMessag.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/DbConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/DbConnection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/IStockPriceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/IStockPriceDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceDAB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceDAB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/StockPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/StockPrice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/ILuceneEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/ILuceneEngine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngineManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/LuceneQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/LuceneQueryBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/StockPriceUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/StockPriceUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/jdbc/Connection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/Connection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/StockReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/StockReader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/db/IStockPriceDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/db/IStockPriceDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/db/StockPriceDAB.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/db/StockPriceDAB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/db/StockPriceManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/db/StockPriceManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/pojo/StockPrice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/pojo/StockPrice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/search/ILuceneEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/search/ILuceneEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/search/LuceneEngine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/search/LuceneEngine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/search/LuceneEngineManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/search/LuceneEngineManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/util/StockPriceUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ballistic/firestream/util/StockPriceUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/DbQueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/DbQueryBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Orderitem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Product.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Supplier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/query/QueryBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/kafka/mongdb/DeviceDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/kafka/mongdb/DeviceDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/LuceneHelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/LuceneHelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/RAMDirectoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/RAMDirectoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search1/Indexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search1/LuceneConstants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search1/TextFileFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search11/SearchQuery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/store/Bucket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ballistic/store/Store.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,26 +46,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="DeviceIndexDocument.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/service/DeviceIndexDocument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IIndexDocument.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/service/IIndexDocument.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -113,18 +104,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/pojo/Supplier.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/pojo/Product.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/pojo/Orderitem.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/pojo/Order.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/pojo/Customer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Supplier.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/data/stock_6_lac.csv" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/ILucenceEngine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/Util.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/StockPriceUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/FSDirectoryExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/FSDirectory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/LuceneInputType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/util/FSDirectoryLucene.java" />
@@ -143,14 +122,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/dto/KeyValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/KeyValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/IStockPrice.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/DbQueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/kafka/pojo/Device.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/QueryOption.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/dto/FieldQuery.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/Bucket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/store/Bucket.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/store/Store.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/IStockPriceDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search11/FSDirectoryExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceDAB.java" />
@@ -160,10 +137,24 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngineManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/LuceneQueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/StockPriceUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/DbConnection.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/jdbc/Connection.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/Connection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/DbConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/ApplicationStart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/RAMDirectoryExample.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/broker/IConsumer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/broker/MsgKafka.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/broker/IProducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/LuceneHelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/fire/config/FbService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/IStockPriceDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngine.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/kafka/mongdb/DeviceDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/DbQueryBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/fire/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBAuthentication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBDbStore.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBFileStore.java" />
       </list>
     </option>
   </component>
@@ -188,6 +179,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Course" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -228,7 +222,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ballistic" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
+              <item name="fire" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MongoQuery" type="b2602c69:ProjectViewProjectNode" />
@@ -237,58 +231,14 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="ballistic" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="jobs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MongoQuery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MongoQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ballistic" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lucene" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MongoQuery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MongoQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ballistic" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="lucene" type="462c0819:PsiDirectoryNode" />
+              <item name="fire" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MongoQuery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MongoQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ballistic" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="mongdb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MongoQuery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MongoQuery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ballistic" type="462c0819:PsiDirectoryNode" />
-              <item name="kafka" type="462c0819:PsiDirectoryNode" />
-              <item name="pojo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Course" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -457,22 +407,23 @@
       <window_info id="Designer" order="2" />
       <window_info id="Project Explorer" order="4" />
       <window_info id="Job Explorer" order="5" />
+      <window_info anchor="bottom" id="Docker" order="10" />
       <window_info anchor="bottom" id="Tail" order="1" />
       <window_info anchor="bottom" id="Console" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.24962178" />
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46859902" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info id="DB Browser" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" x="70" y="320" width="1366" height="736" id="Run" order="2" weight="0.705314" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Terminal" order="5" weight="0.10248447" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21709532" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25945538" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.6215781" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
@@ -487,7 +438,6 @@
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" x="70" y="320" width="1366" height="736" id="Run" order="2" weight="0.44444445" />
-      <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -499,21 +449,22 @@
       <window_info id="Capture Tool" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32919255" />
+      <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Tail" order="1" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="right" id="Maven Projects" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="11" weight="0.32850242" />
       <window_info id="Job Explorer" order="5" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24659607" />
       <window_info anchor="bottom" id="Messages" order="0" weight="0.6215781" />
       <window_info anchor="bottom" id="Message" order="10" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Image Layers" order="8" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Console" order="8" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="11" weight="0.32850242" />
+      <window_info anchor="bottom" id="Tail" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50885665" />
     </layout-to-restore>
   </component>
@@ -525,7 +476,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/mongdb/DeviceDAO.java</url>
-          <line>293</line>
+          <line>291</line>
           <properties class="com.ballistic.kafka.mongdb.DeviceDAO">
             <option name="EMULATED" value="true" />
           </properties>
@@ -543,128 +494,71 @@
       <option name="time" value="63" />
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/mongdb/DeviceManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="15" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        <state relative-caret-position="289">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Orderitem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/mongdb/IDeviceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="60" column="18" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Customer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/service/DeviceIndexDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="-25">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/RAMDirectoryExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/service/IIndexDocument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="89" column="73" lean-forward="true" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="73" />
+        <state relative-caret-position="68">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search/LuceneHelloWorld.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/util/DeviceDocumentFields.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search1/Indexer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/util/LuceneStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/LuceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-374">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/jobs/KCronJobs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search11/Account.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/broker/Producer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_92/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1588">
-          <caret line="163" column="11" selection-start-line="163" selection-start-column="11" selection-end-line="163" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0.jar!/org/apache/lucene/document/Document.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-333">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="50" column="31" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/7.4.0/lucene-core-7.4.0.jar!/org/apache/lucene/search/MatchAllDocsQuery.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search11/FSDirectoryExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="239" column="15" selection-start-line="239" selection-start-column="15" selection-end-line="239" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/split.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/filestore-95f49-firebase-adminsdk-pq5wy-28e8da6e17.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/ApplicationStart.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/broker/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-1105">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -675,94 +569,143 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/broker/Producer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/broker/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        <state relative-caret-position="-39">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/jobs/KCronJobs.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/job/QuertzJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="68">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/job/MyJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/Connection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Orderitem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/query/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/DbConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-161">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="-42">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/IStockPriceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/db/StockPriceDAB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="140" column="42" lean-forward="true" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
+        <state relative-caret-position="29">
+          <caret line="140" column="42" selection-start-line="140" selection-start-column="42" selection-end-line="140" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/StockPrice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+        <state relative-caret-position="-960">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/QueryOption.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="610">
-          <caret line="36" column="19" lean-forward="true" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="19" />
+        <state relative-caret-position="510">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/pojo/dto/FieldQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/FSDirectoryLucene.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="306">
+          <caret line="24" column="16" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/ILuceneEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="68">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/DbQueryBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="55" column="44" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/IStockPrice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="53" column="78" selection-start-line="53" selection-start-column="78" selection-end-line="53" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/LuceneQueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="-960">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -773,24 +716,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/DbQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/IStockPrice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-807">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/LuceneQueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/util/StockPriceUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="536">
+          <caret line="248" lean-forward="true" selection-start-line="248" selection-end-line="248" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/StockReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="-1062">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/firestream/search/LuceneEngine.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/config/FbService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="102" column="1" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="-926">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBAuthentication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3371">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FCMessag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBFileStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1001#1002#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBDbStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -817,7 +829,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/broker/MsgKafka.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="9">
           <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
@@ -829,68 +841,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/config/FbService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/record1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/data/stock_6_lac.csv">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="-17493" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/fire/service/FBAuthentication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1632">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/filestore-95f49-firebase-adminsdk-pq5wy-28e8da6e17.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/pojo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="52" column="30" selection-start-line="52" selection-start-column="30" selection-end-line="52" selection-end-column="30" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/test.sql">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/jdbc/Connection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/store/Bucket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="15" lean-forward="true" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/store/Store.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/lucence/search11/SearchQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/service/DeviceIndexDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ballistic/kafka/lucene/service/IIndexDocument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/split.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

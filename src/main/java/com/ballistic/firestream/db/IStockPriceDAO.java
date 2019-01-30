@@ -2,7 +2,6 @@ package com.ballistic.firestream.db;
 
 import com.ballistic.firestream.pojo.StockPrice;
 import com.ballistic.firestream.pojo.dto.FieldQuery;
-
 import java.util.List;
 
 public interface IStockPriceDAO {

@@ -5,7 +5,6 @@ import com.mongodb.MongoClientOptions;
 import com.mongodb.ReadPreference;
 import org.mongodb.morphia.Datastore;
 import org.mongodb.morphia.Morphia;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -11,9 +11,9 @@ import org.mongodb.morphia.query.UpdateOperations;
  * */
 public interface DbQueryBuilder extends IStockPrice {
 
-    /**
-     * Note :- Filter Query
-     * */
+    /* * * * * * * * * * * **
+     * Note :- Filter Query *
+     * * * * * * * * * * * **/
     public static void getQuery(FieldQuery fieldQuery, Query query) throws Exception {
         Boolean isKeyValueMatch = IStockPrice.isKeyValueMatch(fieldQuery);
         if(isKeyValueMatch) {

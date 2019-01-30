@@ -5,17 +5,14 @@ import com.ballistic.firestream.pojo.dto.FieldQuery;
 import com.ballistic.firestream.util.StockPriceUtil;
 import com.google.common.cache.Cache;
 import com.google.common.cache.CacheBuilder;
-import jdk.nashorn.internal.runtime.Version;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.queryparser.classic.QueryParser;
 import org.apache.lucene.search.*;
-
 import java.io.IOException;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-
 
 public class LuceneEngine extends FSDirectoryLucene implements ILuceneEngine {
 

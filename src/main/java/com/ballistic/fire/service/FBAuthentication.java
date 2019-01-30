@@ -8,7 +8,6 @@ import java.util.List;
 import java.util.concurrent.ExecutionException;
 import java.util.regex.Pattern;
 
-import static com.ballistic.fire.pojo.User.fetchUsers;
 // Sample :- https://github.com/firebase/quickstart-java/blob/master/auth/src/main/java/com/google/firebase/quickstart/AuthSnippets.java
 public class FBAuthentication {
 
