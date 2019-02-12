@@ -99,7 +99,6 @@ public class FBAuthentication {
             }
             catch (ExecutionException e) {
                 System.err.println("Error :- " + e.getLocalizedMessage());
-
             }
         }else {
             if(FbService.getInstance() == null) {

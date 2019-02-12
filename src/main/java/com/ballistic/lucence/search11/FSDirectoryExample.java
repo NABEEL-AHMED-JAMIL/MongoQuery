@@ -14,9 +14,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.List;
 import java.util.stream.Collectors;
-
 import static com.ballistic.firestream.util.IStockPrice.*;
-
 
 public class FSDirectoryExample {
 
@@ -171,7 +169,6 @@ public class FSDirectoryExample {
     }
 
 
-
     public void searchIndex(String fieldSearch, String  value, Integer result) throws IOException, ParseException {
         IndexSearcher searcher =  this.createSearcher();
         QueryParser queryParser = new QueryParser(fieldSearch, this.getAnalyzer());
@@ -198,8 +195,6 @@ public class FSDirectoryExample {
         IndexSearcher searcher =  this.createSearcher();
         QueryParser queryParser = new QueryParser("status", new StandardAnalyzer());
         Query query1 = queryParser.parse(query);
-        System.out.println("Type of query: " + query1.getClass().getSimpleName());
-        System.out.println("Query :- " + query);
         TopDocs foundDocs = searcher.search(query1, 100);
 
         if(foundDocs.totalHits > 0) {
@@ -234,7 +229,7 @@ public class FSDirectoryExample {
         Query query2 = new TermQuery(new Term("status", "false"));
         BooleanQuery query = new BooleanQuery.Builder().add(query1, BooleanClause.Occur.SHOULD).build();
         while (true) {
-            fsDirectoryExample.searchIndex(query.toString());
+            fsDirectoryExample.searchIndex(query2.toString());
         }
 
 //        while (true) {
