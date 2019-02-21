@@ -1,6 +1,5 @@
 package com.ballistic.firestream.util;
 
-
 import com.ballistic.firestream.pojo.dto.FieldQuery;
 
 import java.util.List;

@@ -226,8 +226,8 @@ public class FBAuthentication {
         FBAuthentication authentication = new FBAuthentication();
         //authentication.saveUserDatas(fetchUsers());
         while (true) {
-            authentication.retrieveUserData("nabeel.amd930@gmail.com", UserFetchEnum.Email);
-            authentication.retrieveUserData("nabeel.amd93@gmail.com", UserFetchEnum.Email);
+            authentication.retrieveUserData("nabeel.*****@gmail.com", UserFetchEnum.Email);
+            authentication.retrieveUserData("nabeel.*****@gmail.com", UserFetchEnum.Email);
         }
     }
 

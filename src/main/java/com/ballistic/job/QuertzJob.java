@@ -17,14 +17,11 @@ public class QuertzJob {
         // Grab the Scheduler instance from the Factory
         Scheduler scheduler = StdSchedulerFactory.getDefaultScheduler();
 
-        JobDetail job = newJob(MyJob.class).
-            withIdentity("job1", "group1").
-            build();
+        JobDetail job = newJob(MyJob.class).withIdentity("job1", "group1").build();
 
         Trigger trigger = newTrigger().
-                withIdentity("trigger1", "group1").
-                startNow().withSchedule(simpleSchedule()
-                .withIntervalInSeconds(40).repeatForever()).build();
+             withIdentity("trigger1", "group1").startNow().withSchedule(simpleSchedule()
+             .withIntervalInSeconds(40).repeatForever()).build();
         scheduler.scheduleJob(job, trigger);
         scheduler.start();
     }

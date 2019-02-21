@@ -23,7 +23,7 @@ public class FBDbStore {
             this.database = FbService.getFirebaseDatabase();
             try {
                 DatabaseReference accountRef = this.database.getReference().child(collection);
-                ApiFuture<Void> saveUser = accountRef.setValueAsync(new User("nabeel.amd93@gmail.com", true, "ballistic", "+923153817177", "util", "zyz", true));
+                ApiFuture<Void> saveUser = accountRef.setValueAsync(new User("nabeel.*******@gmail.com", true, "ballistic", "+923153817177", "util", "zyz", true));
                 saveUser.get(10, TimeUnit.SECONDS);
                 System.out.println("Account save");
             } catch (InterruptedException e) {

@@ -1,0 +1,404 @@
+{
+	"Order": [
+		{
+			"key": "shipper",
+			"keyType": "obj",
+			"filedNode": [
+				{
+					"key": "shipperName",
+					"keyType": "str"
+				},
+				{
+					"key": "phone",
+					"keyType": "str"
+				},
+				{
+					"key": "shipperId",
+					"keyType": "str"
+				}
+			]
+		},
+		{
+			"key": "orderDate",
+			"keyType": "dat"
+		},
+		{
+			"key": "orderDetail",
+			"keyType": "obj",
+			"filedNode": [
+				{
+					"key": "quantity",
+					"keyType": "int"
+				},
+				{
+					"key": "product",
+					"keyType": "obj",
+					"filedNode": [
+						{
+							"key": "productId",
+							"keyType": "str"
+						},
+						{
+							"key": "supplier",
+							"keyType": "obj",
+							"filedNode": [
+								{
+									"key": "supplierId",
+									"keyType": "str"
+								},
+								{
+									"key": "address",
+									"keyType": "str"
+								},
+								{
+									"key": "supplierName",
+									"keyType": "str"
+								},
+								{
+									"key": "postalCode",
+									"keyType": "str"
+								},
+								{
+									"key": "phone",
+									"keyType": "str"
+								},
+								{
+									"key": "contactName",
+									"keyType": "str"
+								},
+								{
+									"key": "city",
+									"keyType": "str"
+								},
+								{
+									"key": "country",
+									"keyType": "str"
+								}
+							]
+						},
+						{
+							"key": "unit",
+							"keyType": "str"
+						},
+						{
+							"key": "productName",
+							"keyType": "str"
+						},
+						{
+							"key": "price",
+							"keyType": "fat"
+						},
+						{
+							"key": "categories",
+							"keyType": "obj",
+							"filedNode": [
+								{
+									"key": "categoryId",
+									"keyType": "str"
+								},
+								{
+									"key": "categoryName",
+									"keyType": "str"
+								},
+								{
+									"key": "description",
+									"keyType": "str"
+								}
+							]
+						}
+					]
+				},
+				{
+					"key": "orderDetailId",
+					"keyType": "str"
+				}
+			]
+		},
+		{
+			"key": "employee",
+			"keyType": "obj",
+			"filedNode": [
+				{
+					"key": "photo",
+					"keyType": "str"
+				}, 
+				{
+					"key": "notes",
+					"keyType": "text"
+				}, 
+				{
+					"key": "firstName",
+					"keyType": "str"
+				},
+				{
+					"key": "employeeId",
+					"keyType": "str"
+				}, 
+				{
+					"key": "lastName",
+					"keyType": "str"
+				},
+				{
+					"key": "birthDate",
+					"keyType": "dat"
+				}
+			]
+		},
+		{
+			"key": "orderId",
+			"keyType": "str"
+		},
+		{
+			"key": "customer",
+			"keyType": "obj",
+			"filedNode": [
+				{
+					"key": "address",
+					"keyType": "str"
+				},
+				{
+					"key": "city",
+					"keyType": "str"
+				},
+				{
+					"key": "customerId",
+					"keyType": "str"
+				},
+				{
+					"key": "postalCode",
+					"keyType": "str"
+				},
+				{
+					"key": "categoryName",
+					"keyType": "str"
+				},
+				{
+					"key": "country",
+					"keyType": "str"
+				},
+				{
+					"key": "description",
+					"keyType": "str"
+				},
+				{
+					"key": "description",
+					"keyType": "str"
+				},
+				{
+					"key": "contactName",
+					"keyType": "str"
+				}
+			]
+		}
+	],
+	"OrderDetail": [{
+		"key": "product",
+		"keyType": "obj",
+		"filedNode": [{
+			"key": "productId",
+			"keyType": "str"
+		}, {
+			"key": "supplier",
+			"keyType": "obj",
+			"filedNode": [{
+				"key": "address",
+				"keyType": "str"
+			}, {
+				"key": "postalCode",
+				"keyType": "str"
+			}, {
+				"key": "city",
+				"keyType": "str"
+			}, {
+				"key": "supplierId",
+				"keyType": "str"
+			}, {
+				"key": "supplierName",
+				"keyType": "str"
+			}, {
+				"key": "country",
+				"keyType": "str"
+			}, {
+				"key": "contactName",
+				"keyType": "str"
+			}, {
+				"key": "phone",
+				"keyType": "str"
+			}]
+		}, {
+			"key": "productName",
+			"keyType": "str"
+		}, {
+			"key": "unit",
+			"keyType": "str"
+		}, {
+			"key": "categories",
+			"keyType": "obj",
+			"filedNode": [{
+				"key": "categoryName",
+				"keyType": "str"
+			}, {
+				"key": "description",
+				"keyType": "str"
+			}, {
+				"key": "categoryId",
+				"keyType": "str"
+			}]
+		}, {
+			"key": "price",
+			"keyType": "fat"
+		}]
+	}, {
+		"key": "orderDetailId",
+		"keyType": "str"
+	}, {
+		"key": "quantity",
+		"keyType": "int"
+	}],
+	"Employee": [{
+		"key": "notes",
+		"keyType": "text"
+	}, {
+		"key": "birthDate",
+		"keyType": "dat"
+	}, {
+		"key": "photo",
+		"keyType": "str"
+	}, {
+		"key": "employeeId",
+		"keyType": "str"
+	}, {
+		"key": "lastName",
+		"keyType": "str"
+	}, {
+		"key": "firstName",
+		"keyType": "str"
+	}],
+	"Categories": [{
+		"key": "categoryId",
+		"keyType": "str"
+	}, {
+		"key": "categoryName",
+		"keyType": "str"
+	}, {
+		"key": "description",
+		"keyType": "str"
+	}],
+	"Customer": [{
+		"key": "contactName",
+		"keyType": "str"
+	}, {
+		"key": "country",
+		"keyType": "str"
+	}, {
+		"key": "description",
+		"keyType": "str"
+	}, {
+		"key": "postalCode",
+		"keyType": "str"
+	}, {
+		"key": "address",
+		"keyType": "str"
+	}, {
+		"key": "city",
+		"keyType": "str"
+	}, {
+		"key": "description",
+		"keyType": "str"
+	}, {
+		"key": "customerId",
+		"keyType": "str"
+	}, {
+		"key": "categoryName",
+		"keyType": "str"
+	}],
+	"Shipper": [{
+		"key": "shipperName",
+		"keyType": "str"
+	}, {
+		"key": "shipperId",
+		"keyType": "str"
+	}, {
+		"key": "phone",
+		"keyType": "str"
+	}],
+	"Product": [{
+		"key": "categories",
+		"keyType": "obj",
+		"filedNode": [{
+			"key": "categoryName",
+			"keyType": "str"
+		}, {
+			"key": "categoryId",
+			"keyType": "str"
+		}, {
+			"key": "description",
+			"keyType": "str"
+		}]
+	}, {
+		"key": "productName",
+		"keyType": "str"
+	}, {
+		"key": "price",
+		"keyType": "fat"
+	}, {
+		"key": "supplier",
+		"keyType": "obj",
+		"filedNode": [{
+			"key": "phone",
+			"keyType": "str"
+		}, {
+			"key": "address",
+			"keyType": "str"
+		}, {
+			"key": "city",
+			"keyType": "str"
+		}, {
+			"key": "contactName",
+			"keyType": "str"
+		}, {
+			"key": "supplierName",
+			"keyType": "str"
+		}, {
+			"key": "country",
+			"keyType": "str"
+		}, {
+			"key": "supplierId",
+			"keyType": "str"
+		}, {
+			"key": "postalCode",
+			"keyType": "str"
+		}]
+	}, {
+		"key": "productId",
+		"keyType": "str"
+	}, {
+		"key": "unit",
+		"keyType": "str"
+	}],
+	"Supplier": [{
+		"key": "city",
+		"keyType": "str"
+	}, {
+		"key": "address",
+		"keyType": "str"
+	}, {
+		"key": "supplierName",
+		"keyType": "str"
+	}, {
+		"key": "supplierId",
+		"keyType": "str"
+	}, {
+		"key": "phone",
+		"keyType": "str"
+	}, {
+		"key": "contactName",
+		"keyType": "str"
+	}, {
+		"key": "postalCode",
+		"keyType": "str"
+	}, {
+		"key": "country",
+		"keyType": "str"
+	}]
+}
